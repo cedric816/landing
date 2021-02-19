@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 400px 500px 350px;
+    grid-template-rows: 100px 600px;
+}
+.haut{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+}
+.haut p{
+    font-family: 'Long Cang', cursive;
+    font-size: 50px; 
+}
+.gauche{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.droite{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+form{
+    width: 90%;
+    margin-bottom: 5px;
+}
+.pointille{
+    border-bottom: dashed wheat 1px;
+}
+legend{
+    font-size: 20px;
+}
+input{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.grosButton{
+    height: 40px;
+    padding: 10px;
+    border-radius: 5%;
+}
+.moyenButton{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5%;
+}
+.ajout{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.retourLanding{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding-left: 100px;
+}
+.ombre{
+    box-shadow: 5px 5px 5px;
+}
+.ombre:hover{
+    box-shadow: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
